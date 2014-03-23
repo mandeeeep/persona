@@ -80,4 +80,9 @@ $(document).ready(function() {
         $('#SOITS').addClass('active');
         $('#changedContent').load('web/soits.html');
     });
+    $('#BOOKS').bind('click', function() {
+        $('li').removeClass('active');
+        $('#BOOKS').addClass('active');
+        $('#changedContent').load('web/books.html');
+    });
 });
